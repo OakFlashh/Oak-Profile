@@ -1,0 +1,85 @@
+.quadrantFour, .d1, .d2, .d3, .d4, .quadrantFourContainer {
+  position: absolute;
+  z-index: 5;
+}
+
+.quadrantFour {
+  width: 25vw;
+  height: 41vh;
+  bottom: 0;
+  right: 0;
+  border-color: rgb(100, 26, 46);
+  border-width: 12px ;
+  border-style: solid;
+  background-color: rgb(33, 16, 21);
+}
+
+.d1 {
+  left: 0;  
+  bottom: -4px; 
+}
+.d1 img {
+  height: 11vh;
+  width: auto;
+}
+
+.d2 {
+  bottom: 8px;
+  right: calc(25vw + 22px);
+}
+.d2 img {
+  height: 11.5vh;
+  width: auto;
+}
+
+.d3 img{
+  left: 0px;  
+  top: 0px; 
+  height: 11vh;
+  width: auto;
+}
+
+.d4 {
+  right: 0px;  
+  top: 0px; 
+}
+
+.d4 img {
+  height: 11.5vh;
+  width: auto;
+}
+.quadrantFourContainer {
+  width: calc(25vw + 12px);
+  height: calc(41vh + 12px);
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  z-index: 5;
+}
+
+.aboutme {
+  display: flex;
+  color: white;
+  font-size: 4vh;
+  font-family: propaganda;
+  position: fixed;
+  height: 5.7vh;
+  width: 21vw;
+  border-radius: 120px 120px 50px 50px;
+  background-color: rgb(57, 23, 32);
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  margin-right: 12px;
+  z-index: 5;
+}
+
+.content {
+  width: 22vw;
+  margin-top: 10vh;
+  color: white;
+  line-height: 2.3;
+  font-size: 2.1vh;
+}

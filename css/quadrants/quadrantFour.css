@@ -16,7 +16,7 @@
 
 .d1 {
   left: 0;  
-  bottom: -4px; 
+  bottom: -5px; 
 }
 .d1 img {
   height: 11vh;
@@ -24,7 +24,7 @@
 }
 
 .d2 {
-  bottom: 8px;
+  bottom: 7px;
   right: calc(25vw + 22px);
 }
 .d2 img {

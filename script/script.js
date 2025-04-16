@@ -1,7 +1,7 @@
 function changeImage(element) {
   const originalImageSrc = "images/LOGO.png"; 
   const newImageSrc = "images/LOGO-2.png"; 
-  const duration = 100; 
+  const duration = 250; 
 
   const img = element.querySelector("img");
 

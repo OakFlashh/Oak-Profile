@@ -60,7 +60,7 @@ body {
   
 } 
 
-.img1 {left: 49%; transform: translate(-50%, -50%) scale(1.1);}
+.img1 {left: 49%; transform: translate(-50%, -50%) scale(1.15);}
 .img2 {left: 45%; transform: translate(-50%, -50%) scale(1);}
 .img3 {left: 55%; transform: translate(-50%, -50%) scale(1);}
 .img4 {left: 46%; transform: translate(-50%, -50%) scale(1);}

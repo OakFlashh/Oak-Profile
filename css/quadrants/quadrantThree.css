@@ -81,7 +81,7 @@
 .c2 {
   position: absolute;
   top: calc(58vh + 39px);
-  height: 10vw;
+  height: 20vh;
   width: 5vw;
   left: 11px;
   z-index: 5;

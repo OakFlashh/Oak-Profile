@@ -24,13 +24,13 @@
 }
 
 .latestdrawing {
-  letter-spacing: 8px;
+  letter-spacing: .35vw;
   font-family: propaganda;
   color: white;
   font-size: 1.3vw;
   height: 6vh;
   width: 22vw;
-  border-radius: 100px 100px 20px 20px;
+  border-radius: 60vw 60vw 20px 20px;
   background-color: rgba(57, 23, 32, 0.815);
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@
   user-select: none;
   position: absolute;
   top: 0;
-  left: calc(50% - 5px);
+  left: calc(50% - 4px);
   transform: translateX(-50%); 
   margin-top: 2vh;
   z-index: 5;
